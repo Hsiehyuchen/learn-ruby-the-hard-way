@@ -1,0 +1,23 @@
+#"""      
+ """   為字串
+#$stdin
+#gets
+#chomp 想裁剪掉字串尾端空白字元
+=begin
+print "Input your name: "
+name = gets
+puts "Hello, #{name}!"
+
+如下執行指令載入指令稿直譯並執行：
+>ruby main.rb
+Input your name: Justin
+Hello, Justin
+!
+
+>
+
+注意最後一個行才出現!，
+ 這是因為name變 數參考的字串，
+最後包括空白字元。如果想裁剪掉字串尾端空白字元，
+像是換行字元，可以使用字串物件的chomp方 法。例如：
+=end
